@@ -1,0 +1,16 @@
+body
+{
+    background-color: palegreen;
+    color: #000000;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.1875;
+    margin: 100px;
+    padding: 100px;
+}
+
+p
+{
+    font-size: 24px; 
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <title>Contact</title>
+    <link href="formulario1.css" rel="stylesheet"/>
+    <link href="formulario2.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="container">
+        <!--FORMULARIO-->
+        <div id="wb_Form1" style="position:absolute;left:155px;top:70px;width:660px;height:792px;z-index:13;">
+            <form name="Form1" method="post" action="usuario.php" enctype="multipart/form-data" id="Form1">
+                <input type="text" id="Editbox1" style="position:absolute;left:28px;top:129px;width:267px;height:42px;z-index:0;" name="fname" value="" spellcheck="false" required="required" pattern="[A-Za-záéíóúÁÉÍÓÚñÑ \t\r\n\f]*$" placeholder="First name">
+                <input type="text" id="Editbox2" style="position:absolute;left:348px;top:130px;width:267px;height:40px;z-index:1;" name="lname" value="" spellcheck="false" required="required" pattern="[A-Za-záéíóúÁÉÍÓÚñÑ \t\r\n\f]*$" placeholder="Last name">
+                <input type="email" id="Editbox3" style="position:absolute;left:28px;top:213px;width:267px;height:40px;z-index:2;" name="email" value="" spellcheck="false" required="required" placeholder="Email address">
+                <input type="text" id="Editbox4" style="position:absolute;left:348px;top:213px;width:267px;height:40px;z-index:3;" name="phone" value="" spellcheck="false" required="required" pattern="[0-9-]*$" placeholder="Telephone number">
+                <input type="url" id="Editbox5" style="position:absolute;left:28px;top:302px;width:267px;height:40px;z-index:4;" name="url" value="" spellcheck="false" required="required" placeholder="Website URL">
+                <select name="department" size="1" id="Combobox1" style="position:absolute;left:348px;top:302px;width:285px;height:52px;z-index:5;" required="required">
+                    <option selected value="">Select department</option>
+                    <option>one</option>
+                    <option>two</option>
+                    <option>three</option>
+                    <option>four</option>
+                    <option>five</option>
+                    <option>six</option>
+                    <option>seven</option>
+                    <option>eight</option>
+                    <option>nine</option>
+                    <option>ten</option>
+                </select>
+                <textarea name="message" id="TextArea1" style="position:absolute;left:28px;top:394px;width:587px;height:139px;z-index:6;" rows="5" cols="47" spellcheck="false" required="required" placeholder="Enter message or comment"></textarea>
+                <label id="Label1" style="position:absolute;left:0px;top:671px;width:652px;height:113px;line-height:113px;z-index:7;"></label>
+                <input type="reset" id="Button1" name="cancel" value="Cancel" style="position:absolute;left:34px;top:717px;width:115px;height:43px;z-index:8;">
+                <input type="submit" id="Button2" name="submit" value="Submit Form" style="position:absolute;left:169px;top:719px;width:179px;height:39px;z-index:9;">
+                <label id="Label3" style="position:absolute;left:28px;top:545px;width:593px;height:27px;line-height:31px;z-index:10;"> Hint: Don't be negative or off topic</label>
+                <label id="Label2" style="position:absolute;left:0px;top:0px;width:636px;height:83px;line-height:83px;z-index:11;">Contact Form</label>
+            </form>
+        </div>
+        <!--FORMULARIO-->
+    </div>
+
+</body>
+</html>
